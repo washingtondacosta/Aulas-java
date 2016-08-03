@@ -1,0 +1,12 @@
+package composer;
+
+public class matricula {
+	
+	private int disciplina;
+	private String aluno;
+	
+	public void Matricula(int disciplina, String aluno){
+		
+	}
+
+}

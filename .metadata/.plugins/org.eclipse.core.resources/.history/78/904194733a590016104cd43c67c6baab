@@ -1,0 +1,15 @@
+package composer;
+
+public class disciplina {
+	
+	private int codDisciplina;
+	
+	public void setCodDisciplina(int cod){
+		this.codDisciplina = cod;
+	}
+	
+	public int getCodDisciplina(){
+		return this.codDisciplina;
+	}
+
+}

@@ -1,0 +1,13 @@
+package composer;
+import java.util.Scanner;
+public class composer {
+	
+	public static void main(String[] args) {
+		
+		Scanner entrada = new Scanner(System.in);
+		String nome = entrada.nextLine();
+		int disciplina = entrada.nextInt();
+		
+	}
+
+}

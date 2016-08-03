@@ -1,0 +1,23 @@
+package composer;
+import java.util.Scanner;
+public class composer {
+	
+	public static void main(String[] args) {
+		
+		Scanner entrada = new Scanner(System.in);
+		
+		String nome = entrada.nextLine();
+		int disciplina = entrada.nextInt();
+		
+		aluno novoAluno = new aluno();
+		novoAluno.setNome(nome);
+		
+		
+		disciplina novaDisciplina = new disciplina();
+		novaDisciplina.setCodDisciplina(disciplina);
+		
+		matricula novaMatricula = new matricula(novaDisciplina,novoAluno);
+		
+	}
+
+}

@@ -1,0 +1,49 @@
+
+public class EnumTeste {
+
+	public enum Bebida {
+		CocaCola("Coca cola", 2.00), Suco("Suco", 1.50), Agua("Agua", 1.00);
+
+		private double preco;
+		private String nome;
+
+		Bebida(String nome, double preco) {
+			this.nome = nome;
+			this.preco = preco;
+		}
+
+		public double getPreco() {
+			return this.preco;
+		}
+
+		public String getNome() {
+			return this.nome;
+		}
+	}
+
+	public enum Comida {
+		Sanduiche("Sanduiche", 4.0), HotDog("HotDog", 3.0), Xburger("X-Burger", 3.5);
+
+		private String nome;
+		private double preco;
+
+		Comida(String nome, double preco) {
+			this.nome = nome;
+			this.preco = preco;
+		}
+
+		public String getNome() {
+			return this.nome;
+		}
+
+		public double getPreco() {
+			return this.preco;
+		}
+
+	}
+	
+	public void menu(){
+		
+	}
+
+}

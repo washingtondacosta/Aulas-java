@@ -1,0 +1,14 @@
+package composer;
+
+public class matricula {
+
+	private int disciplina;
+	private String aluno;
+
+	public void Matricula(int disciplina, String aluno) {
+
+		System.out.println("Matricula do aluno" + aluno + " na disciplina: " + disciplina + "efetuada com sucesso:");
+
+	}
+
+}

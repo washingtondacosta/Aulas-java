@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class PositivoNegativo {
+
+	public static boolean isPositive(float num) {
+
+		if (num > 0) {
+			return true;
+		} else
+			return false;
+
+	}
+
+}

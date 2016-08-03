@@ -1,0 +1,13 @@
+
+public class EnumTeste {
+	
+	public enum Bebida{
+		CocaCola("Coca cola", 2.00),
+		Suco("Suco",1.50),
+		Agua("Agua",1.00);
+		
+		private double preco;
+		private String nome;
+	}
+
+}
